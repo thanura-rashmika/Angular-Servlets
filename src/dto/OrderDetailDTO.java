@@ -4,7 +4,7 @@ public class OrderDetailDTO {
     private int odid;
     private int oid;
     private double unit_price;
-    private int qty;
+    private double qty;
 
     public int getOdid() {
         return odid;
@@ -30,11 +30,11 @@ public class OrderDetailDTO {
         this.unit_price = unit_price;
     }
 
-    public int getQty() {
+    public double getQty() {
         return qty;
     }
 
-    public void setQty(int qty) {
+    public void setQty(double qty) {
         this.qty = qty;
     }
 }

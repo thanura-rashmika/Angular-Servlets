@@ -4,7 +4,7 @@ public class CustomerDTO {
     private int id;
     private String name;
     private String address;
-    private int mobile;
+    private String mobile;
 
     public int getId() {
         return id;
@@ -30,11 +30,11 @@ public class CustomerDTO {
         this.address = address;
     }
 
-    public int getMobile() {
+    public String getMobile() {
         return mobile;
     }
 
-    public void setMobile(int mobile) {
+    public void setMobile(String mobile) {
         this.mobile = mobile;
     }
 }
