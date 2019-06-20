@@ -1,4 +1,7 @@
 package repo.spec;
 
-public interface ItemRepo {
+import entity.Item;
+import repo.SuperRepo;
+
+public interface ItemRepo extends SuperRepo<Item, Integer> {
 }

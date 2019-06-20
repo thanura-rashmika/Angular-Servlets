@@ -1,4 +1,8 @@
 package repo.spec;
 
-public interface OrderDetailRepo {
+import entity.OrderDetail_PK;
+import entity.OrderDetails;
+import repo.SuperRepo;
+
+public interface OrderDetailRepo extends SuperRepo<OrderDetails, OrderDetail_PK> {
 }
